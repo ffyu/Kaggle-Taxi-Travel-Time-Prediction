@@ -12,7 +12,7 @@ from datetime import datetime
 FOLDER = './data/'
 
 
-# Convert [lat,lon] string to list
+# Convert [lon,lat] string to list
 def lonlat_convert(lonlat):
 
     lon = float(re.compile("[-+]?\d+.\d+").findall(lonlat)[0])

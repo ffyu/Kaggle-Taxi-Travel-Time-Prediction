@@ -16,6 +16,7 @@ The dependencies of this script include:
  - [pandas](http://pandas.pydata.org/)
  - [sqlite3](https://docs.python.org/2/library/sqlite3.html)
  - [datetime](https://docs.python.org/2/library/datetime.html)
+ - [scikit-learn](http://scikit-learn.org/stable/)
  
 To run the script, please change the global variable **FOLDER** to your local directory, and also download the train and test sets from the competition website. The script would generate a bunch of intermediate files. The final prediction of the test set is named **"submission_final.csv"**. The running time is roughly two hours on an i7-16G laptop.
 

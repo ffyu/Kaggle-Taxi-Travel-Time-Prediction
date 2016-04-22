@@ -20,7 +20,7 @@ The dependencies of this script include:
  
 To run the script, please change the global variable **FOLDER** to your local directory, and also download the train and test sets from the competition website. The script would generate a bunch of intermediate files. The final prediction of the test set is named **"submission_final.csv"**. The running time is roughly two hours on an i7-16G laptop.
 
-Also note that this is only one model that contributes to my final result. I used another model which breaks down the training set by varying time of the day. That model is too lengthy to show it here. 
+Also note that this is only one model that contributes to my final result. I used another model which breaks down the training set by varying time of the day. That model does not have the RAM usage problem since it has been divided into pieces by time of the day. 
  
 Please feel free to email me if you have any comments/suggestions.
 
